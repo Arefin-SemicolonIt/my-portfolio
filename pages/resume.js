@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <div className="bg-[#1b1c1f]">
+    <div className="bg-[#1b1c1f] p-[100px]">
       <div className="mb-[50px]">
         <h2 className="text-[90px] text-[#333] text-center">Resume</h2>
         <p className="text-[#eb2f06] text-[30px] text-center">Qualifications</p>

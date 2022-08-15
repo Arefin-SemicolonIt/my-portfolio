@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className=" bg-[#0f1013] p-[50px]">
+    <div className=" bg-[#0f1013] p-[100px]">
       <div className="mb-[50px]">
         <h2 className="text-[90px] text-[#333] text-center">Services</h2>
         <p className="text-[#eb2f06] text-[30px] text-center">What I Offer</p>
@@ -56,7 +56,7 @@ const Services = () => {
 
       </div>
       <div className="text-center mt-[50px]">
-        <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white">More Services</a>
+        <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white cursor-pointer">More Services</a>
       </div>
     </div>
   );

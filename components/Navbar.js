@@ -2,12 +2,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return ( 
-    <div className="flex justify-between items-center p-[20px] bg-[#1b1c1f]">
+    <div className="flex justify-between items-center p-[20px] bg-[#1b1c1f] ">
       <div className="text-[40px]">
         <Link href='/'><a className="text-[#eb2f06]">Arefin</a></Link>
       </div>
 
-      <nav className="flex sm:justify-center space-x-4">
+      <nav className="flex sm:justify-center space-x-4 ">
         <Link href='/'><a className="hover:text-[#eb2f06]">Home</a></Link>
         <Link href='#about'><a className="hover:text-[#eb2f06]">About</a></Link>
         <Link href='#services'><a className="hover:text-[#eb2f06]">Services</a></Link>

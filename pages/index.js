@@ -17,7 +17,7 @@ import {
 export default function Home() {
   return (
     <div className={styles.arefin}>
-      <div className="pt-[100px] pb-[100px] pl-[50px]">
+      <div className="pt-[300px] pb-[200px] pl-[50px]">
         <p className="text-[20px] text-[#fff]">Hello</p>
         <p className="text-[30px]">
           I´m <a className="text-[#eb2f06]">Shams </a>Arefin

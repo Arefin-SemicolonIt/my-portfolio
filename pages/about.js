@@ -1,7 +1,7 @@
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="mt-[50px] bg-[#1b1c1f] p-[50px] grid grid-cols-2">
+    <div className="mt-[50px] bg-[#1b1c1f] p-[100px] grid grid-cols-2">
       <div>
         <Image src="/img/about_dark.jpg" width={400} height={525}/>
       </div>
@@ -25,7 +25,7 @@ const About = () => {
         </div>
 
         <div className="mt-[20px] ">
-          <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white">Download CV</a>
+          <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white cursor-pointer">Download CV</a>
         </div>
       </div>
     </div>

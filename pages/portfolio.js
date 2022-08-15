@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const Portfolio = () => {
   return ( 
-    <div className="bg-[#0f1013] p-[50px]">
+    <div className="bg-[#0f1013] p-[100px]">
       <div>
         <h2 className="text-[90px] text-[#333] text-center">Portfolio</h2>
-        <p className="text-[#eb2f06] text-[30px] text-center">Our Projects</p>
+        <p className="text-[#eb2f06] text-[30px] text-center">My Projects</p>
       </div>
 
       <div className="mb-[50px]">
         <ul className="flex justify-center space-x-4">
-          <li>All</li>
-          <li>Design</li>
-          <li>Development</li>
+          <li className="text-[#F79F1F] hover:text-[#eb2f06] cursor-pointer">All</li>
+          <li className="text-[#F79F1F] hover:text-[#eb2f06] cursor-pointer">Design</li>
+          <li className="text-[#F79F1F] hover:text-[#eb2f06] cursor-pointer">Development</li>
         </ul>
 
       </div>
@@ -40,7 +40,7 @@ const Portfolio = () => {
       </div>
 
       <div className="text-center mt-[50px] pb-[50px]">
-        <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white">More Projects</a>
+        <a className="border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] hover:text-white cursor-pointer">More Projects</a>
       </div>
 
     </div>
