@@ -22,7 +22,7 @@ export default function Example() {
     <Disclosure as="nav" className="bg-[#1b1c1f]">
       {({ open }) => (
         <>
-          <div className="max-w-7xl px-2 sm:px-6 lg:px-8 pt-[20px] pb-[20px]">
+          <div className=" px-2 sm:px-6 lg:px-8 pt-[20px] pb-[20px]">
             <div className="relative flex items-center justify-between ">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
