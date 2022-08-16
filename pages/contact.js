@@ -9,25 +9,25 @@ const Contact = () => {
         <div className="order-2 sm:order-1">
           <div>
             <h5 className="text-[20px] text-[#eb2f06]">Location</h5>
-            <address>205 Fairview St. Rochester, NY 14606</address>
+            <address className="text-[#aaa]">205 Fairview St. Rochester, NY 14606</address>
           </div>
 
           <div>
             <h5 className="text-[20px] text-[#eb2f06]">Email</h5>
-            <a>arefin.semicolonit@gmail.com</a>
+            <a className="text-[#aaa]">arefin.semicolonit@gmail.com</a>
           </div>
 
           <div>
             <h5 className="text-[20px] text-[#eb2f06]">Phone</h5>
-            <a>+2 651 976 468</a>
+            <a className="text-[#aaa]">+2 651 976 468</a>
           </div>
           <div>
             <h5 className="text-[20px] text-[#eb2f06]">Social Links</h5>
             <div>
-              <a>facebook</a>
-              <a>twitter</a>
-              <a>instagram</a>
-              <a>linkedin</a>
+              <a className="text-[#aaa]">facebook</a>
+              <a className="text-[#aaa]">twitter</a>
+              <a className="text-[#aaa]">instagram</a>
+              <a className="text-[#aaa]">linkedin</a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Contact = () => {
             <input placeholder="Email" className="bg-[#222] w-[100%] h-[45px] p-[8px] border-[3px] border-[#0f1013]"/>
             <input placeholder="Message" className="bg-[#222] w-[100%] h-[85px] p-[8px] border-[3px] border-[#0f1013]"/>
             <div className="mt-[10px] text-center mb-[20px]">
-               <button className="mt-[10px] border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] sm:w-[30%] w-[50%] hover:text-white ">Send Message</button>     
+               <button className="mt-[10px] border-[2px] border-[#eb2f06] rounded-full p-[10px] hover:bg-[#eb2f06] sm:w-[30%] w-[50%] hover:text-white  text-[#aaa]">Send Message</button>     
             </div>
           </form>
         </div>
