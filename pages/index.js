@@ -14,6 +14,7 @@ import {
   TagIcon,
 } from "@heroicons/react/solid";
 
+
 export default function Home() {
   return (
     <div className={styles.arefin}>
@@ -36,6 +37,7 @@ export default function Home() {
           <a>
             <TagIcon className="h-7 w-7 text-[#eb2f06]" />
           </a>
+          
         </div>
       </div>
       <div id="about">

@@ -1,8 +1,8 @@
 const Footer = () => {
   return ( 
-    <div className="flex justify-between relative p-[30px] bg-[#1b1c1f]">
-      <p>&copy;2022 Arefin, All Right Reserved</p>
-      <a> Privacy Policy | Terms & Conditions</a>
+    <div className="grid sm:grid-cols-2 grid-cols-1 p-[30px] bg-[#1b1c1f]">
+      <p className="sm:text-start text-center">&copy;2022 Arefin, All Right Reserved</p>
+      <a className="sm:text-end text-center"> Privacy Policy | Terms & Conditions</a>
     </div>
    );
 }
